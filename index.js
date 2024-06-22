@@ -34,7 +34,7 @@ function compareNumbers() {
         }
 
         else {
-            document.getElementById('textOutput').innerHTML='Congrat! You guessed the right number!'
+            document.getElementById('textOutput').innerHTML='Parabéns! Você acertou o numero secreto!'
             attempts++
             document.getElementById('attemps').innerHTML=attempts
             document.getElementById('inputBox').setAttribute('Readonly',' Readonly', 'Readonly')
