@@ -1,7 +1,7 @@
 let computerNumber
 let userNumbers = []
 let attempts = 0
-let maxGuesses = 10
+let maxGuesses = 6
 
 function newGame() {
     window.location.reload()
